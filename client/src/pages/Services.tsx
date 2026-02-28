@@ -8,7 +8,7 @@ export default function Services() {
       id: "finanzbuchhaltung",
       icon: Calculator,
       title: "Finanzbuchhaltung",
-      description: "Wir übernehmen Ihre komplette Finanzbuchhaltung – digital, rechtssicher und effizient. So haben Sie stets den vollen Überblick über Ihre Finanzen.",
+      description: "Ich übernehme Ihre komplette Finanzbuchhaltung – digital, rechtssicher und effizient. So haben Sie stets den vollen Überblick über Ihre Finanzen.",
       features: ["Belegerfassung digital", "Umsatzsteuervoranmeldungen", "Betriebswirtschaftliche Auswertungen (BWA)"]
     },
     {
@@ -22,14 +22,14 @@ export default function Services() {
       id: "jahresabschluss",
       icon: FileText,
       title: "Jahresabschluss",
-      description: "Wir erstellen Ihre Jahresabschlüsse nach Handels- und Steuerrecht und übernehmen die notwendigen Veröffentlichungen im Bundesanzeiger.",
+      description: "Ich erstelle Ihre Jahresabschlüsse nach Handels- und Steuerrecht und übernehme die notwendigen Veröffentlichungen im Bundesanzeiger.",
       features: ["Bilanzen & Einnahmenüberschussrechnungen", "Anhang und Lagebericht", "Offenlegung"]
     },
     {
       id: "steuererklaerung",
       icon: PieChart,
       title: "Steuererklärung",
-      description: "Wir erstellen Steuererklärungen für Privatpersonen und Unternehmen und prüfen Ihre Steuerbescheide auf Richtigkeit.",
+      description: "Ich erstelle Steuererklärungen für Privatpersonen und Unternehmen und prüfe Ihre Steuerbescheide auf Richtigkeit.",
       features: ["Einkommensteuer", "Körperschaft- und Gewerbesteuer", "Erbschaft- und Schenkungsteuer"]
     },
     {
@@ -43,7 +43,7 @@ export default function Services() {
       id: "existenzgruendung",
       icon: Briefcase,
       title: "Existenzgründung",
-      description: "Wir begleiten Sie von der ersten Idee über den Businessplan bis hin zur Anmeldung beim Finanzamt und Gewerbeamt.",
+      description: "Ich begleite Sie von der ersten Idee über den Businessplan bis hin zur Anmeldung beim Finanzamt und Gewerbeamt.",
       features: ["Businessplanprüfung", "Fördermittelberatung", "Steuerliche Erstberatung"]
     }
   ];
@@ -55,7 +55,7 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <h1 className="text-4xl md:text-5xl font-bold font-display mb-6">Umfassende Leistungen</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto text-primary-foreground/80">
-            Wir bieten Ihnen maßgeschneiderte Lösungen für alle steuerlichen und betriebswirtschaftlichen Herausforderungen.
+            Ich biete Ihnen maßgeschneiderte Lösungen für alle steuerlichen und betriebswirtschaftlichen Herausforderungen.
           </p>
         </div>
       </div>

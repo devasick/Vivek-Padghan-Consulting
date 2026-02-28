@@ -149,9 +149,9 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-bold font-display mb-6">Warum Vivek Padghan Consulting?</h2>
               <div className="space-y-8 mt-10">
                 {[
-                  { title: "Persönliche Betreuung", desc: "Bei uns sind Sie keine Nummer. Sie haben einen festen Ansprechpartner, der Ihr Unternehmen kennt." },
-                  { title: "Digitale Prozesse", desc: "Wir nutzen modernste DATEV-Lösungen für effiziente, papierlose und sichere Abläufe." },
-                  { title: "Proaktive Beratung", desc: "Wir verwalten nicht nur die Vergangenheit, sondern gestalten aktiv Ihre steuerliche Zukunft." }
+                  { title: "Persönliche Betreuung", desc: "Bei mir sind Sie keine Nummer. Als Ihr direkter Ansprechpartner kenne ich Ihr Unternehmen und Ihre Bedürfnisse." },
+                  { title: "Digitale Prozesse", desc: "Ich nutze modernste DATEV-Lösungen für effiziente, papierlose und sichere Abläufe." },
+                  { title: "Proaktive Beratung", desc: "Ich verwalte nicht nur die Vergangenheit, sondern gestalte aktiv Ihre steuerliche Zukunft." }
                 ].map((item, i) => (
                   <div key={i} className="flex gap-4">
                     <div className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-1">
@@ -174,7 +174,7 @@ export default function Home() {
                   {[...Array(5)].map((_, i) => <Star key={i} className="w-6 h-6 fill-current" />)}
                 </div>
                 <blockquote className="text-xl md:text-2xl font-medium leading-relaxed text-foreground mb-8">
-                  "Vivek Padghan Consulting hat uns bei der Existenzgründung perfekt begleitet. Die digitalen Prozesse sparen uns wöchentlich mehrere Stunden Zeit."
+                  "Vivek hat mich bei der Existenzgründung perfekt begleitet. Die persönliche Betreuung und digitalen Prozesse sparen mir wöchentlich mehrere Stunden Zeit."
                 </blockquote>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center text-gray-500 font-bold text-xl">

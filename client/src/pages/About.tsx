@@ -18,15 +18,15 @@ export default function About() {
           </div>
           
           <div>
-            <h4 className="text-primary font-bold tracking-wider uppercase text-sm mb-3">Die Kanzlei</h4>
-            <h1 className="text-4xl md:text-5xl font-bold font-display text-foreground mb-6">Wir verstehen Zahlen. Und Menschen.</h1>
+            <h4 className="text-primary font-bold tracking-wider uppercase text-sm mb-3">Über mich</h4>
+            <h1 className="text-4xl md:text-5xl font-bold font-display text-foreground mb-6">Ich verstehe Zahlen. Und Menschen.</h1>
             
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed mb-10">
               <p>
-                Hinter jeder Bilanz und jeder Steuererklärung stehen Menschen, Unternehmen und Lebenswerke. Als moderne Steuerkanzlei in Hamburg kombinieren wir fachliche Exzellenz mit persönlicher Nähe.
+                Hinter jeder Bilanz und jeder Steuererklärung stehen Menschen, Unternehmen und Lebenswerke. Als unabhängiger Steuerberater in Hamburg kombiniere ich fachliche Exzellenz mit persönlicher Nähe.
               </p>
               <p>
-                Unser Ziel ist es nicht nur, Ihre steuerlichen Pflichten zu erfüllen, sondern Ihre wirtschaftliche Zukunft aktiv und positiv zu gestalten. Wir setzen auf digitale Prozesse, transparente Kommunikation und proaktive Beratung.
+                Mein Ziel ist es nicht nur, Ihre steuerlichen Pflichten zu erfüllen, sondern Ihre wirtschaftliche Zukunft aktiv und positiv zu gestalten. Ich setze auf digitale Prozesse, transparente Kommunikation und proaktive Beratung.
               </p>
             </div>
 
@@ -41,7 +41,7 @@ export default function About() {
                 <h3 className="font-bold text-foreground mb-2 flex items-center gap-2">
                   <BookOpen className="w-5 h-5 text-primary" /> Fortbildung
                 </h3>
-                <p className="text-sm text-muted-foreground">Kontinuierliche Weiterbildung unseres gesamten Teams.</p>
+                <p className="text-sm text-muted-foreground">Kontinuierliche Weiterbildung und Spezialisierung im Steuerrecht.</p>
               </div>
             </div>
           </div>
@@ -51,9 +51,9 @@ export default function About() {
         <div className="bg-primary text-primary-foreground rounded-3xl p-12 md:p-20 text-center relative overflow-hidden shadow-2xl">
           <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div>
           <div className="relative z-10 max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-display font-bold mb-8">Unsere Philosophie</h2>
+            <h2 className="text-3xl md:text-4xl font-display font-bold mb-8">Meine Philosophie</h2>
             <p className="text-xl md:text-2xl leading-relaxed font-light text-primary-foreground/90">
-              "Steuerberatung ist Vertrauenssache. Wir begegnen unseren Mandanten auf Augenhöhe, sprechen eine verständliche Sprache und finden Lösungen, die rechtlich sicher und wirtschaftlich sinnvoll sind."
+              "Steuerberatung ist Vertrauenssache. Ich begegne meinen Mandanten auf Augenhöhe, spreche eine verständliche Sprache und finde Lösungen, die rechtlich sicher und wirtschaftlich sinnvoll sind."
             </p>
           </div>
         </div>
