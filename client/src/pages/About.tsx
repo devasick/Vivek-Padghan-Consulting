@@ -9,10 +9,10 @@ export default function About() {
         {/* Profile Section */}
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
           <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] lg:aspect-auto lg:h-[600px]">
-            {/* professional headshot placeholder */}
+            {/* professional headshot */}
             <img 
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&h=1000&fit=crop" 
-              alt="Steuerberater Profil" 
+              src="/Vivek Padghan consulting photo.jpg" 
+              alt="Vivek Padghan - Steuerberater" 
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>

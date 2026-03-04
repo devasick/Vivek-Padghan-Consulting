@@ -63,13 +63,19 @@ export default function Contact() {
               </ul>
             </div>
 
-            {/* Map Placeholder */}
+            {/* Map */}
             <div className="h-full min-h-[400px] bg-muted rounded-3xl overflow-hidden relative border border-border">
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-muted-foreground bg-gray-100">
-                <MapPin className="w-8 h-8 mb-2 opacity-50" />
-                <span className="font-medium">Google Maps Integration</span>
-                <p className="text-sm mt-2 px-8 text-center">Wir freuen uns auf Ihren Besuch in unseren Kanzleiräumen.</p>
-              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.3841896726446!2d9.9835!3d53.4573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f3b3c3b3b3b%3A0x3b3b3b3b3b3b3b3b!2sKnoopstra%C3%9Fe%2040%2C%2021074%20Hamburg!5e0!3m2!1sde!2sde!4v1234567890"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="absolute inset-0"
+                title="Vivek Padghan Consulting Standort"
+              ></iframe>
             </div>
           </div>
         </div>
